@@ -290,7 +290,7 @@ if __name__ == '__main__':
            'CMA', 'MHK', 'RL', 'ZION', 'FOX', 'NWL', 'LNC', 'NWS', 'DISH']
 
     start_date = '2020-01-01'
-    end_date = '2023-08-03'
+    end_date = '2023-08-20'
     dataset_ = load_raw_data(tickers, start_date, end_date)
     X_ = data_preparation(dataset_)
     find_optimal_number_of_clusters_for_kmean(X_)
